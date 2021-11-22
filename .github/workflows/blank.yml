@@ -7,7 +7,7 @@ on:
         required: true
       pin:
         description: '6 digits PIN'
-        required: true
+        required: false
 jobs:
   build:
     runs-on: ubuntu-20.04
