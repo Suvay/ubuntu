@@ -28,7 +28,7 @@ jobs:
         echo Install: Xbase Clients
         sudo apt-get install xbase-clients python3-psutil xvfb -y
         echo Install: Chrome Remote Desktop
-        wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
+        wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
         sudo dpkg --install chrome-remote-desktop_current_amd64.deb
         sudo apt install --assume-yes --fix-broken
         echo Download: Keep Alive
